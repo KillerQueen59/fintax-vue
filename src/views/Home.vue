@@ -2,7 +2,7 @@
   <div class="bg-tosca-0">
     <div class="container mx-auto">
       <div class="flex ">
-        <div class="xl:w-5/12 lg:w-5/12 md:w-7/12 py-32 mx-auto">
+        <div class=" py-32 mx-auto">
           <h1 class="text-5xl text-dark">Fintax Internship Assignment</h1>
           <div class="my-8 rounded-md shadow max-w-md mx-auto">
             <a
