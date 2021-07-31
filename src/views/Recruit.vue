@@ -66,7 +66,7 @@
       </div>
     </div>
     <div v-if="dropdown == 'Filter'">
-      <div class="grid grid-cols-2 gap-4 mx-auto pt-10 ">
+      <div class="grid xl:grid-cols-2 lg:grid-cols-2 gap-4 mx-auto pt-10 ">
         <div v-for="recruit in recruits" :key="recruit.id">
            <div >
             <RecruitCard :data="recruit" :loading="loading" />
@@ -75,7 +75,7 @@
       </div>
     </div>
     <div v-if="dropdown == 'Ascending'">
-      <div class="grid grid-cols-2 gap-4 mx-auto pt-10">
+      <div class="grid xl:grid-cols-2 lg:grid-cols-2 gap-4 mx-auto pt-10">
         <div v-for="recruit in ascend" :key="recruit.id">
            <div >
             <RecruitCard :data="recruit" :loading="loading" />
@@ -84,7 +84,7 @@
       </div>
     </div>
     <div v-if="dropdown == 'Descending'">
-      <div class="grid grid-cols-2 gap-4 mx-auto pt-10">
+      <div class="grid xl:grid-cols-2 lg:grid-cols-2 gap-4 mx-auto pt-10">
         <div v-for="recruit in descend" :key="recruit.id">
           <div >
             <RecruitCard :data="recruit" :loading="loading" />
