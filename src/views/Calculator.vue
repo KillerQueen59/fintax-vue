@@ -227,6 +227,20 @@ export default {
       this.saveToLocalStorage();
     },
   },
+   mounted() {
+    if (localStorage.getItem("numbers")) {
+      try {
+        this.savedNumber = JSON.parse(localStorage.getItem("numbers"));
+      } catch (e) {
+        // print(e);
+      }
+    }
+  },
+  computed: {
+    rows() {
+      return this.savedNumber.length;
+    }
+  }
 };
 </script>
 

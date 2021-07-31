@@ -123,6 +123,13 @@
           >
             Recruits
           </router-link>
+           <router-link
+            to="/navguard"
+            class="text-gray-500 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            exact-active-class="border-dark-0 text-dark-0 font-semibold"
+          >
+            Navguard
+          </router-link>
         </div>
       </div>
     </nav>

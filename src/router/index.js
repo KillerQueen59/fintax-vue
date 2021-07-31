@@ -8,6 +8,7 @@ import NotFound from '../components/NotFound.vue'
 import Recruit from '../views/Recruit.vue'
 import RecruitFilter from '../views/RecruitFilter.vue'
 import Calculator from '../views/Calculator.vue'
+import SingleCard from '../views/SingleCard.vue'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/recruits',
     name: 'Recruit',
     component: Recruit
+  },
+  {
+    path: "/recruits/:id",
+    name: "SingleCard",
+    component: SingleCard
   },
   {
     path: '/calculator',
