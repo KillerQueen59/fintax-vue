@@ -1,5 +1,5 @@
 # fintax-vue
-
+https://fintax-vue.vercel.app/
 ## Project setup
 ```
 npm install
